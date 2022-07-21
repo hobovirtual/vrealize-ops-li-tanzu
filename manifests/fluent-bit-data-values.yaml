@@ -14,7 +14,7 @@ fluent_bit:
       [OUTPUT]
         Name                 syslog
         Match                *
-        Host                 vrli01.h2o-4-562.h2o.vmware.com
+        Host                 [vrli fqdn|ip - please update]
         Port                 514
         Mode                 tcp
         Syslog_Format        rfc5424

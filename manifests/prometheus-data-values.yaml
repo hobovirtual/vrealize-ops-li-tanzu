@@ -657,7 +657,7 @@ prometheus:
       {}
 ingress:
   enabled: true
-  virtual_host_fqdn: "prometheus01.h2o-4-562.h2o.vmware.com"
+  virtual_host_fqdn: "[prometheus fqdn|ip - please update]"
   prometheus_prefix: "/"
   alertmanager_prefix: "/alertmanager/"
   prometheusServicePort: 80
