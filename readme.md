@@ -31,13 +31,13 @@ example
 For this demo we're using vRealize Log Insights and Fluent Bit which is installed as a daemonset configured to send logging to vRealize Log Insights
 
 ### Prometheus
-Instructions can be found here[https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-packages-prometheus.html]
+Instructions can be found [here](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-packages-prometheus.html)
 
 example
 - manifest/prometheus-data-values.yaml
 
 ### Fluent Bit
-Instructions can be found here[https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-packages-logging-fluentbit.html]
+Instructions can be found [here](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-packages-logging-fluentbit.html)
 
 example
 - manifest/fluent-bit-data-values.yaml
