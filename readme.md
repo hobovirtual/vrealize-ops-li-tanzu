@@ -17,14 +17,15 @@ The default integrations is providing platform (k8s) metrics
 
 In order to provide applications specific metrics we need to perform the following actions
 
-- deploy telegraf sidecar
- - for example
-  - manifest/hello-observability-logs-v3.yaml
-  - manifest/hello-observability-v2.yaml
-  - manifest/complete-demo.yaml (this is the weaveworks demo app)
-- define prometheus target (pointing to the telegraf sidecar)
- - for example
-  - manifest/prometheus-data-values.yaml
+#### deploy telegraf sidecar
+examples
+- manifest/hello-observability-logs-v3.yaml
+- manifest/hello-observability-v2.yaml
+- manifest/complete-demo.yaml (this is the weaveworks demo app)
+
+#### define prometheus target (pointing to the telegraf sidecar)
+example
+- manifest/prometheus-data-values.yaml
 
 #### vRealize Log Insights
 For this demo we're using vRealize Log Insights and Fluent Bit which is installed as a daemonset configured to send logging to vRealize Log Insights
