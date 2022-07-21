@@ -2,6 +2,8 @@
 
 ###  please note that these configuration should be revised before adding them into production
 
+_______________________________________________________________________________________________
+
 #### environment
 - vSphere 7
 - vRealize Operations Manager 8.6.3
@@ -9,6 +11,8 @@
 - vRealize Log Insights 8.8.0
 - Prometheus 1.75.0 - using tanzu package
 - Fluent Bit 2.27.0 - using tanzu package
+
+_______________________________________________________________________________________________
 
 #### vRealize Operations Manager
 For this demo we're using vRealize Operations Manager Kubernetes Management Pack native integration with Prometheus collector (providing metrics)
@@ -27,14 +31,20 @@ examples
 example
 - manifest/prometheus-data-values.yaml
 
+_______________________________________________________________________________________________
+
 #### vRealize Log Insights
 For this demo we're using vRealize Log Insights and Fluent Bit which is installed as a daemonset configured to send logging to vRealize Log Insights
+
+_______________________________________________________________________________________________
 
 ### Prometheus
 Instructions can be found [here](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-packages-prometheus.html)
 
 example
 - manifest/prometheus-data-values.yaml
+
+_______________________________________________________________________________________________
 
 ### Fluent Bit
 Instructions can be found [here](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-packages-logging-fluentbit.html)
